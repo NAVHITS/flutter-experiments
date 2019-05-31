@@ -34,6 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
           hintText: "Email",
           border:
           OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))),
+      keyboardType: TextInputType.emailAddress,
     );
 
     final passwordField = TextField(

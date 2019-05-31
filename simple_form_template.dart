@@ -1,3 +1,7 @@
+/*dependencies:  
+  image_picker:
+  date_format: */
+
 import 'dart:io';
 import 'dart:async';
 import 'package:flutter/material.dart';
@@ -14,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SplashScreen(),
+      home: MyHomePage(),
     );
   }
 }
